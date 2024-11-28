@@ -45,7 +45,7 @@ int main() {
 
     bank.displayAccounts();
 
-     // set colour to green
+    // set colour to green
     // Set console text color to green
     #ifdef _WIN32
         system("color 0A");
