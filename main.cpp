@@ -9,6 +9,7 @@ using namespace std;
 int main() {
     cout << "Hello, World!" << endl; // cout is used to print to the console (basically C OUTput)
     Utils::print("Hello, World!");
+    printf("Hello, World!\n"); // printf is used to do a formatted print to the console (basically PRINT Format)
 
     // string i = Utils::input("Enter your name: ");
     // Utils::print("Hello, " + i);
@@ -18,9 +19,10 @@ int main() {
     Utils::print(to_string(Utils::subtract(4, 2)));
     Utils::print(to_string(Utils::multiply(5, 2)));
 
-    printf("Hello, World!\n"); // printf is used to do a formatted print to the console (basically PRINT Format)
 
     unsigned long long int max = ULLONG_MAX;
+
+    printf("\n%p\n", &max);
 
     printf("The maximum number possible to store in c++ is: %llu\n", max);
 
