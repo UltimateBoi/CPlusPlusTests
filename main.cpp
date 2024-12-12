@@ -22,7 +22,7 @@ int main() {
 
     unsigned long long int max = ULLONG_MAX;
 
-    printf("\n%p\n", &max);
+    printf("\n%p\n", &max); // print the memory location of the variable max. %p is used to print memory location and the & is used to get the memory location of a variable rather than a class or object
 
     printf("The maximum number possible to store in c++ is: %llu\n", max);
 
